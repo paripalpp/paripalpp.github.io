@@ -9,8 +9,6 @@
             .twitter-feed-container {
                 max-width: 400px;
                 width: 100%;
-                max-height: 600px;
-                height: 100%;
             }
 
         </style>
@@ -18,41 +16,73 @@
     <body>
 
     <header class="bg-gray-800 text-white text-center py-4">
-        <h1>Nakanishi Yuki</h1>
+        <h1 class="text-xl">Nakanishi Yuki</h1>
         <p>中西 優希</p>
     </header>
 
-    <section class="p-4">
+    <section class="p-4 container mx-auto">
         <h2 class="text-xl font-bold mb-4">About Me</h2>
         <p>ロボコンから逃れられない回路班。プログラムも書くし機械設計もたまにする。</p>
-        <p>Age : 20</p>
+        <div class="box-content "></a>
     </section>
 
-    <section class="p-4">
+    <section class="p-4 container mx-auto">
+        <h2 class="text-xl font-bold mb-4">Contact</h2>
+        <p>Twitter: <a class="underline" href="https://twitter.com/parico_paripal" target="_blank">ぱりこ</a></p>
+        <p>Email: paripal5z34@gmail.com</p>
+        <p>GitHub: <a class="underline" href="https://github.com/paripalpp" target="_blank">github.com/paripalpp</a></p>
+    </section>
+
+    <section class="p-4 container mx-auto">
         <h2 class="text-xl font-bold mb-4">Projects</h2>
-        <u1>
+        <u1 class="list-none divide-y divide-dashed">
             <li class="mb-4">
-                <h3 class="text-lg font-bold">2019 高専ロボコン : OSAKA OBASAN</h3>
-                <p>雑務</p>
+                <h3 class="text-xl underline">2019 高専ロボコン : OSAKA OBACHAN</h3>
+                <p>Position : 雑務</p>
             </li>
             <li class="mb-4">
-                <h3 class="text-lg font-bold">2020 高専ロボコン : 府大だんじり</h3>
-                <p>回路</p>
+                <h3 class="text-xl underline">2020 高専ロボコン : 府大だんじり</h3>
+                <p>Position : 回路</p>
             </li>
             <li class="mb-4">
-                <h3 class="text-lg font-bold">2021 高専ロボコン : 機巧神コウダイオー</h3>
-                <p>回路</p>
+                <h3 class="text-xl underline">2021 高専ロボコン : 機巧神コウダイオー</h3>
+                <p>Position : 回路</p>
                 <p>全国大会 7位</p>
             </li>
             <li class="mb-4">
-                <h3 class="text-lg font-bold">2022 高専ロボコン : AIRs ROCK</h3>
-                <p>回路</p>
+                <h3 class="text-xl underline">2022 高専ロボコン : AIRs ROCK</h3>
+                <p>Position : 回路</p>
                 <p>全国大会 ベスト16</p>
             </li>
         </u1>
     </section>
 
-    <section class="p-4">
+    <section class="p-4 container mx-auto">
+        <h2 class="text-xl font-bold mb-4">Work</h2>
+        <div class="columns-3xs gap-8 space-y-8 block">
+            <a href="https://github.com/paripalpp/PW-2" class="block w-full aspect-square ">
+                <img src="https://github.com/paripalpp/PW-2/blob/master/PW-2.png?raw=true" alt="Description of the image" class="w-full aspect-square rounded-lg object-cover object-center">
+            </a>
+            <a href="https://github.com/paripalpp/MD-5" class="block w-full aspect-square ">
+                <img src="https://pbs.twimg.com/media/FVxKOADaUAEiV4Y?format=jpg&name=large" alt="Description of the image" class="w-full aspect-square rounded-lg object-cover object-center">
+            </a>
+            <a href="https://github.com/paripalpp/KiCAD_libralies" class="block w-full aspect-square ">
+                <img src="library_image.png" alt="Description of the image" class="w-full aspect-square rounded-lg object-cover object-center">
+            </a>
+            <a href="https://github.com/paripalpp/WL-2" class="block w-full aspect-square ">
+                <img src="https://user-images.githubusercontent.com/86734575/168655404-0a2123da-cae7-489b-a72d-353eef911679.png" alt="Description of the image" class="w-full aspect-square rounded-lg object-cover object-center">
+            </a>
+            <a href="https://github.com/paripalpp/RPHAT_nucleo" class="block w-full aspect-square ">
+                <img src="https://pbs.twimg.com/media/FiyyQc0UAAA5sqK?format=jpg&name=4096x4096" alt="Description of the image" class="w-full aspect-square rounded-lg object-cover object-center">
+            </a>
+
+            <a href="https://github.com/paripalpp/MD-6" class="block w-full aspect-square ">
+                <img src="https://pbs.twimg.com/media/Fiy2g_fVUAA6BkE?format=jpg&name=4096x4096" alt="Description of the image" class="w-full aspect-square rounded-lg object-cover object-center">
+            </a>
+        </div>
+    </section>
+
+    <section class="p-4 container mx-auto">
         <h2 class="text-xl font-bold mb-4">Twitter Feed</h2>
         <div class="twitter-feed-container">
             <a class="twitter-timeline" data-height="600px" href="https://twitter.com/parico_paripal?ref_src=twsrc%5Etfw">Tweets by @parico_paripal</a> 
@@ -60,13 +90,7 @@
         </div>
     </section>
 
-    <section class="p-4">
-        <h2 class="text-xl font-bold mb-4">Contact</h2>
-        <p>Email: paripalpp@gmail.com</p>
-        <p>GitHub: <a href="https://github.com/paripalpp" target="_blank">github.com/paripalpp</a></p>
-    </section>
-
-    <footer class="bg-gray-800 text-white text-center py-4 fixed bottom-0 w-full">
+    <footer class="bg-gray-800 text-white text-center py-4 bottom-0 w-full">
         <p>&copy; 2024 Nakanishi Yuki. This work is licensed under a <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">Creative Commons Attribution 4.0 International License</a>.</p>
     </footer>
 
