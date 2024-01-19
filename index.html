@@ -1,94 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Portfolio</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Nakanishi Yuki</title>
+        <!-- Tailwind CSS の CDN を追加 -->
+        <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.4.1/dist/tailwind.min.css" rel="stylesheet">
+    </head>
+    <body>
 
-        header {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 1em;
-        }
-
-        section {
-            padding: 50px;
-        }
-
-        ul {
-            list-style: none;
-            padding: 0;
-        }
-
-        footer {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 1em;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-        }
-    </style>
-</head>
-<body>
-
-    <header>
+    <header class="bg-gray-800 text-white text-center py-4">
         <h1>Nakanishi Yuki</h1>
         <p>中西 優希</p>
     </header>
 
-    <section>
-        <h2>About Me</h2>
+    <section class="p-4">
+        <h2 class="text-xl font-bold mb-4">About Me</h2>
         <p>ロボコンから逃れられない回路班。プログラムも書くし機械設計もたまにする。</p>
         <p>Age : 20</p>
     </section>
 
-    <section>
-        <h2>Projects</h2>
+    <section class="p-4">
+        <h2 class="text-xl font-bold mb-4">Projects</h2>
         <u1>
-            <li>
-                <h3>2019 高専ロボコン : OSAKA OBASAN</h3>
+            <li class="mb-4">
+                <h3 class="text-lg font-bold">2019 高専ロボコン : OSAKA OBASAN</h3>
                 <p>雑務</p>
             </li>
-            <li>
-                <h3>2020 高専ロボコン : 府大だんじり</h3>
+            <li class="mb-4">
+                <h3 class="text-lg font-bold">2020 高専ロボコン : 府大だんじり</h3>
                 <p>回路</p>
             </li>
-            <li>
-                <h3>2021 高専ロボコン : 機巧神コウダイオー</h3>
+            <li class="mb-4">
+                <h3 class="text-lg font-bold">2021 高専ロボコン : 機巧神コウダイオー</h3>
                 <p>回路</p>
                 <p>全国大会 7位</p>
             </li>
-            <li>
-                <h3>2022 高専ロボコン : AIRs ROCK</h3>
+            <li class="mb-4">
+                <h3 class="text-lg font-bold">2022 高専ロボコン : AIRs ROCK</h3>
                 <p>回路</p>
                 <p>全国大会 ベスト16</p>
             </li>
         </u1>
     </section>
 
-    <section>
-        <h2>Twitter Feed</h2>
+    <section class="p-4">
+        <h2 class="text-xl font-bold mb-4">Twitter Feed</h2>
         <a class="twitter-timeline" href="https://twitter.com/parico_paripal?ref_src=twsrc%5Etfw">Tweets by parico_paripal</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     </section>
 
-    <section>
-        <h2>Contact</h2>
+    <section class="p-4">
+        <h2 class="text-xl font-bold mb-4">Contact</h2>
         <p>Email: paripalpp@gmail.com</p>
         <p>GitHub: <a href="https://github.com/paripalpp" target="_blank">github.com/paripalpp</a></p>
     </section>
 
-    <footer>
-        <p>&copy; 2024 Your Portfolio. All rights reserved.</p>
+    <footer class="bg-gray-800 text-white text-center py-4 fixed bottom-0 w-full">
+        <p>&copy; 2024 Your Portfolio. This work is licensed under a <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">Creative Commons Attribution 4.0 International License</a>.</p>
     </footer>
 
 </body>
